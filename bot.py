@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 
 # 🔑 ВСТАВ свій токен і свій Telegram ID
-BOT_TOKEN = "8521927589:AAH20KWwDyn_GsDp49H5ypWweIhsblaX_iQ"
+BOT_TOKEN = "8521927589:AAGl-trzqEu4tdW2yGWGBLFG-sytlssMg18"
 YOUR_ID = 1381602436  # твій Telegram ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
