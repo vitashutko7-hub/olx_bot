@@ -84,9 +84,10 @@ def get_new_ads():
         except Exception as e:
             print(f"Помилка з {url}: {e}")
     return new_ads
+    
     def send_new_ads():
-    while True:
-        new_ads = get_new_ads()
+        while True:
+            new_ads = get_new_ads()
 
         if new_ads:
             for ad in new_ads:
